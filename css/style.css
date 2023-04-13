@@ -1,0 +1,63 @@
+*{
+    background-color: azure;
+
+
+}
+form{
+    background-color: aquamarine;
+    color: blue;
+    width: 450px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    margin-top:50px ;
+    transition-duration: 3s;
+    box-shadow: 5px 5px 20px 30px #30ff36;
+    transform: rotate3d(10 , 0 , 10 , 25deg);
+
+}
+@keyframes form-rotation  {
+    form{
+        background-color: #ff45b6;
+
+    }
+    to{
+        background-color: #ff45b6;
+    }
+}
+form:hover{
+    transform: scale3d(90% , 90% , 10% );
+    animation-name: form-rotation;
+    animation-delay: 1s;
+    animation-duration: 10s;
+}
+
+form input{
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+    width: 70%;
+    font-family: "Book Antiqua";
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid azure;
+    outline: none;
+    border-radius: 20px;
+
+
+}
+.userName{
+    margin-top: 50px;
+}
+.btn{
+    background-color: blueviolet;
+    width: 50%;
+    color: white;
+
+}
+.btn:hover{
+    background-color: #ff9485;
+    color: blue;
+}
